@@ -195,7 +195,7 @@ def main(args: argparse.Namespace = get_args()) -> None:
         torch.manual_seed(args.seed)
 
     PROJECT_ROOT = Path(__file__).resolve().parents[1]
-    scenario_dir = PROJECT_ROOT / "xmlScenario"
+    scenario_dir = PROJECT_ROOT / "scenarios"
     print("scenario_dir", scenario_dir)
 
     if not scenario_dir.is_dir():
