@@ -187,3 +187,6 @@ outputs/
 .vscode/
 xmlScenario/pkl/
 scenarios/pkl/
+
+Dockerfile.base
+Dockerfile.runtime
