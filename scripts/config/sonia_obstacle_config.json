@@ -1,0 +1,11 @@
+{
+    "max_acceleration": 8.0,
+    "max_velocity": 60.0,
+    "switching_velocity": 30.0,
+    "position_uncertainty": 1.0,
+    "velocity_uncertainty": 1.0,
+    "consider_uncertainty": true,
+    "driving_backwards_allowed": false,
+    "leaving_lane_allowed": false,
+    "reaction_time": 1.0
+}
