@@ -103,7 +103,7 @@ def _patched_create_actor_critic(
         actor = Actor(actor_net, action_shape, device=actor_config.device).to(actor_config.device)
 
     critic_net = _patched_create_base_net(
-        env, critic_config, use_action_shape=use_critic_action_shape, concat=concat_net,  state_shape_override=(96,) #32 * num_agents
+        env, critic_config, use_action_shape=use_critic_action_shape, concat=concat_net,  state_shape_override=(96,) #32 * num_agents, TODO: dont hardcode it so num_agents can be easily varied
     )
     critic = Critic(critic_net, device=critic_config.device).to(critic_config.device)
 
