@@ -9,7 +9,7 @@ This project builds on the single-agent CommonRoad RL implementation by A. Kasse
 Original work:
 https://gitlab.lrz.de/cps/cps-rl/safe-rl-autodrive
 
-After the thesis submission, the project was further extended with:
+After the thesis submission, the project was extended with:
 
 - a centralized critic (CTDE) significantly improving training stability and performance
 - trajectory export to CommonRoad XML for visualization
